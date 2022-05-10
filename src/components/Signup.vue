@@ -35,9 +35,9 @@
         <button class="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded" type="button">
           Sign Up
         </button>
-        <a class="inline-block align-baseline font-bold text-sm text-blue hover:text-blue-darker" href="#">
-          Already signed up?
-        </a>
+        <router-link to="/login" class="inline-block align-baseline font-bold text-sm text-blue hover:text-blue-darker" href="#">
+          Already signed up? Log in!
+        </router-link>
       </div>
     </div>
   </form>
